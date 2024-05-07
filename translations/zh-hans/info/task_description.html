@@ -1,0 +1,58 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    想象一下，您正在砖厂制砖。您有若干个窑<code>k</code> 和若干个仓库<code>s</code> 。您希望用尽可能少的轨道交叉点连接每个窑和每个仓库。请注意，轨道不一定要笔直<i>（方案 1</i>）。
+</p>
+
+<p style="text-align: justify;">
+    这个问题的另一个变体是，在<code>k</code> 序列中，在连接每个元素和所有其他元素的同时，找到最少的交叉点<i>（方案 2</i>）。
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}brick-factory.svg" alt="example" style="max-height: 250px"/>
+</p>
+
+<p style="text-align: justify;">
+    您的函数必须返回变式 1（两个参数）或变式 2（一个参数）中的最小交点数，具体取决于给定参数的数量。
+</p>
+
+<p style="text-align: justify;">
+    下面是一段视频，对问题、示例、方案和公式😉进行了更广泛的解释。请注意，这些公式尚未完全证明，可能需要您下一步自己研究！
+</p>
+
+<p style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xBfAYxxRsjY?si=jFKCKBc7CUh1cN-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>输入</strong>两个或一个整数 <span>({% if is_js %}number{% else %}int{% endif %})</span>
+</p>
+
+<p>
+   <strong>输出： 整数</strong>整数 
+</p>
+
+
+<p>
+    <strong>示例</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
