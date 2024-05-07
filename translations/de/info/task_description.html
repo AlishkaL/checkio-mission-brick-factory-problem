@@ -1,0 +1,58 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Stellen Sie sich vor, Sie sind in einer Ziegelfabrik und stellen Ziegel her. Sie haben eine Anzahl von Brennöfen <code>k</code> und eine Anzahl von Lagern <code>s</code>. Und Sie möchten jeden Brennofen mit jedem Lager mit einer möglichst geringen Anzahl von Gleisüberschneidungen verbinden. Beachten Sie, dass die Gleise nicht unbedingt gerade sein müssen<i>(Schema 1</i>).
+</p>
+
+<p style="text-align: justify;">
+    Eine andere Variante dieses Problems besteht darin, die minimale Anzahl von Kreuzungen zu finden, wobei jedes Element mit allen anderen in der Reihenfolge <code>k</code> verbunden werden soll<i>(Schema 2</i>).
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}brick-factory.svg" alt="example" style="max-height: 250px"/>
+</p>
+
+<p style="text-align: justify;">
+    Ihre Funktion muss die minimale Anzahl von Kreuzungen in Variante 1 (zwei Argumente) oder Variante 2 (ein Argument) zurückgeben, je nach Anzahl der angegebenen Argumente.
+</p>
+
+<p style="text-align: justify;">
+    Hier ist ein Video mit einer ausführlicheren Erklärung der Probleme, Beispiele, Schemata und Formeln 😉. Beachten Sie, dass die Formeln noch nicht vollständig bewiesen sind und es sich um Ihre nächste eigene Studie handeln könnte!
+</p>
+
+<p style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xBfAYxxRsjY?si=jFKCKBc7CUh1cN-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> Zwei oder eine ganze Zahl <span>({% if is_js %}number{% else %}int{% endif %})</span>
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> Ganzzahl. 
+</p>
+
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
