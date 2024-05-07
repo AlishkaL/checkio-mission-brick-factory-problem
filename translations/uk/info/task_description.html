@@ -1,0 +1,58 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Уявіть, що ви працюєте на цегельному заводі і виробляєте цеглу. У вас є кілька печей <code>k</code> і кілька складів <code>s</code>. І ви хочете з'єднати кожну піч з кожним складом мінімально можливою кількістю перетинів шляхів. Зверніть увагу, що не обов'язково, щоб шляхи були прямими<i>(схема 1</i>).
+</p>
+
+<p style="text-align: justify;">
+    Інший варіант цієї задачі - знайти мінімальну кількість перетинів при з'єднанні кожного елемента з усіма іншими у послідовності <code>k</code> <i>(схема 2</i>).
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}brick-factory.svg" alt="example" style="max-height: 250px"/>
+</p>
+
+<p style="text-align: justify;">
+    Ваша функція повинна повертати мінімальну кількість перетинів у варіанті 1 (два аргументи) або варіанті 2 (один аргумент), в залежності від кількості заданих аргументів.
+</p>
+
+<p style="text-align: justify;">
+    Ось відео з більш детальним поясненням задачі, прикладами, схемами та формулами 😉. Зауважте, що формули ще не повністю доведені і це може бути вашим наступним власним дослідженням!
+</p>
+
+<p style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xBfAYxxRsjY?si=jFKCKBc7CUh1cN-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані:</strong> Два або одне ціле число <span>({% if is_js %}number{% else %}int{% endif %})</span>
+</p>
+
+<p>
+   <strong>Вихідні дані:</strong> Ціле число. 
+</p>
+
+
+<p>
+    <strong>Приклади:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
